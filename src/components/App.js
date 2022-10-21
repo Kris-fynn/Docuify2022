@@ -5,8 +5,8 @@ import Main from './Main'
 import Web3 from 'web3';
 import './App.css';
 
-const INFURA_ID = "2GM9JzqHaCOYjYViRkzTg3F8loD";
-const INFURA_SECRET_KEY = "24ceeea239a51d0e068d20801dfc22d3";
+const INFURA_ID = "######";
+const INFURA_SECRET_KEY = " #######";
 const auth =
     'Basic ' + Buffer.from(INFURA_ID + ':' + INFURA_SECRET_KEY).toString('base64');
 
